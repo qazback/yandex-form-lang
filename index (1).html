@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Тілді таңдаңыз / Choose language / Выберите язык</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html, body {
+            height: 100%;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+            background: #fff;
+            color: #21201f;
+            -webkit-font-smoothing: antialiased;
+        }
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 24px;
+        }
+        .container {
+            width: 100%;
+            max-width: 360px;
+            text-align: center;
+        }
+        .logo {
+            font-size: 26px;
+            font-weight: 700;
+            margin-bottom: 8px;
+            letter-spacing: -0.5px;
+        }
+        .logo span { color: #fc3f1d; }
+        .subtitle {
+            font-size: 15px;
+            color: #6c6a67;
+            margin-bottom: 32px;
+            line-height: 1.5;
+        }
+        .lang-btn {
+            display: block;
+            width: 100%;
+            padding: 18px 20px;
+            margin-bottom: 12px;
+            background: #f5f4f2;
+            color: #21201f;
+            text-decoration: none;
+            border-radius: 14px;
+            font-size: 17px;
+            font-weight: 500;
+            transition: background 0.15s, transform 0.1s;
+            -webkit-tap-highlight-color: transparent;
+        }
+        .lang-btn:active {
+            background: #ebeae7;
+            transform: scale(0.98);
+        }
+        .lang-btn .flag {
+            margin-right: 10px;
+            font-size: 20px;
+            vertical-align: middle;
+        }
+        .lang-btn .name {
+            vertical-align: middle;
+        }
+        .footer {
+            margin-top: 24px;
+            font-size: 12px;
+            color: #b3b1ad;
+        }
+        @media (hover: hover) {
+            .lang-btn:hover { background: #ebeae7; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">Yandex Qazaqstan <span>/</span> business</div>
+        <div class="subtitle">
+            Анкета тілін таңдаңыз<br>
+            Choose form language<br>
+            Выберите язык анкеты
+        </div>
+
+        <a class="lang-btn" href="https://forms.yandex.ru/surveys/13847442.be1da1ce51fa6378609cdfee6d29f1138c7a9aeb/?lang=kk">
+            <span class="flag">🇰🇿</span><span class="name">Қазақша</span>
+        </a>
+        <a class="lang-btn" href="https://forms.yandex.ru/surveys/13847442.be1da1ce51fa6378609cdfee6d29f1138c7a9aeb/?lang=en">
+            <span class="flag">🇬🇧</span><span class="name">English</span>
+        </a>
+        <a class="lang-btn" href="https://forms.yandex.ru/surveys/13847442.be1da1ce51fa6378609cdfee6d29f1138c7a9aeb/?lang=ru">
+            <span class="flag">🇷🇺</span><span class="name">Русский</span>
+        </a>
+
+        <div class="footer">© Yandex Qazaqstan / business</div>
+    </div>
+</body>
+</html>
